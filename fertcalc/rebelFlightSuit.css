@@ -1,0 +1,100 @@
+/* BOXES */
+
+.box_name{
+	align:left;
+	width:333px;
+	position:relative;
+	padding:2 0 2 5;
+	margin:0;
+	background-color:#ff6600;
+	color:#102F31;
+	font-weight:bold;
+}
+
+.box{
+	width:260px;
+	padding:0 0 0 5;
+	margin:20;
+	border-style:solid;
+	border-width:1px;
+	border-color:#ff6600;
+	font-size: 12px;
+	
+}
+
+.bland_box{
+	margin-left:auto;
+	margin-right:auto;
+	width:780;
+	padding:0 0 0 5;
+	margin:20;
+	border-width:0px;
+}
+
+.full_box{
+	margin-left:auto;
+	margin-right:auto;
+	width:780;
+	padding:0;
+	margin:20;
+	border-style:solid;
+	border-width:1px;
+	border-color:#ff6600;
+	
+}
+
+.full_box_content{
+	padding: 0 0 0 5;
+}
+
+/* MISC FORMATING */
+
+body{
+	margin:0;
+	padding:0;
+	background-color:#102F31;
+	color:#D3D3D3;	
+	font-family:Verdana, sans-serif;
+}
+
+
+ul
+{
+	list-style-type:none;
+	margin:5;
+	padding:0;
+	line-height:1.6;
+	position:relative;
+}
+
+
+td
+{
+	height:5px;
+	vertical-align:top;
+}
+
+
+.noborder{
+	border-width:0px;
+}
+
+.pad{
+	padding:5;	
+}
+
+.marg5{
+	margin:5;	
+}
+
+.marg0{
+	margin:5;	
+}
+
+
+/* LINKS */
+
+a:link {color:#D3D3D3} 
+a:visited {color:#D3D3D3}  
+a:hover {color:#ff6600}  
+a:active {color:#102F31;background:#ff6600} 
